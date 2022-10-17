@@ -1,0 +1,132 @@
+main {
+  background-color: white;
+  width: 30%;
+  /* min-height: 100vh; */
+  margin: 10rem auto;
+      border-radius: 1rem ;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+}
+
+.mainImage {
+  width: 100%;
+      border-radius: 1rem 1rem 0 0;
+}
+
+section {
+  margin: 0 0 2rem 0;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+}
+
+
+
+#planDetails {
+  padding: 0 3rem;
+}
+
+.planComponent {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  padding: 2rem;
+  height: 2rem;
+}
+
+.div1 {
+  /* : flex-it;
+  position:absolute; */
+  /* float: left; */
+}
+
+.div2 {
+  /* float: left; */
+  /* display: inline-block;
+  position: relative;
+
+  margin: 0 0 0 -4rem; */
+
+
+
+        margin: 0 0 0 1rem;
+}
+
+.div3 {
+  /* float: left; */
+  /* margin: 0.9rem 0 0 5rem;
+  position:absolute;
+  font-size: small; */
+  margin: 0.9rem 0 0 5rem;
+
+  font-size: small;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-name {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+.btn {
+
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    background: hsl(245, 75%, 52%);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-decoration: none;
+        margin: 1rem 3rem;
+}
+
+.cancel-order{
+  padding:2rem;
+  color: hsl(224, 23%, 55%);
+}
+
+
+@media screen and (max-width: 1480px) {
+    /* .div3 {
+      margin: 0.9rem 0 0 2rem;
+    } */
+    /* .planComponent {
+        text-align: center;
+      height:3rem;
+    } */
+
+    @media screen and (max-width: 1400px) {
+
+
+        .planComponent {
+        flex-direction: column;
+          height:10rem;
+          text-align: center;
+          justify-content: space-between;
+        }
+        .div3{
+            margin: 0;
+          float: cancel;
+        }
+        /* .div1{
+          margin:0.5rem 0;
+          float: cancel;
+        }
+        .div2{
+            margin:0.5rem 0;
+          float: cancel;
+        }
+        .div3{
+            margin:0.5rem 0;
+          float: cancel;
+        } */
